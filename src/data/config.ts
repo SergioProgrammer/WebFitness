@@ -7,21 +7,21 @@ export const siteSlogan = "The best pies in the galaxy!";
 export const themeColor = "#FF0000";
 
 export const phone = {
-	href: "tel:+123456789",
-	label: "(123) 456-789",
+	href: "tel:+34 655 689 827",
+	label: "(+34) 655 689 827",
 };
 
 export const email = {
-	href: "mailto:info@astropie.com",
-	label: "info@astropie.com",
+	href: "mailto:sergiosanpacheco@gmail.com",
+	label: "sergiosanpacheco@gmail.com",
 };
 
 export const address = {
-	street: "1234 Space Street",
-	city: "Galaxy City",
-	zip: "12345",
-	state: "Milky Way",
-	country: "Space",
+	street: "Calle El Pozo",
+	city: "La Laguna",
+	zip: "38201",
+	state: "SC Tenerife",
+	country: "Spain",
 };
 
 export const socialMedia = {

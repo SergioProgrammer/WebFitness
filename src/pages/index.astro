@@ -12,7 +12,7 @@ import WideImage from "~/components/WideImage.astro";
 import ReviewSlider from "~/components/ReviewSlider.astro";
 
 // Images
-import PizzaHero from "~/assets/images/pizza-hero.png";
+import PizzaHero from "~/assets/images/pizza-hero.jpg";
 import Pizza from "~/assets/images/pizza.png";
 import Spaghetti from "~/assets/images/spaghetti.png";
 import Fish from "~/assets/images/fish.png";
@@ -26,19 +26,18 @@ import Mussels from "~/assets/images/mussels2.png";
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+				<Badge title="TU ESPACIO DE EJERCICIO" />
+				<h1 class="font-black">Tu GYM online </h1>
 
 				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
+					Sabemos que empezar es duro, pero mas duro es no empezar. Aquí tienes tu espacio con los mejores consejos, videos y ejercicios para que te conviertas en la mejores
+					versión de ti mismo
 				</p>
 
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
+				<span class="text-brand-green font-medium">✔ Asesoramos online</span>
 
 				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/book">Book now</Button>
+					<Button url="/book">Reserva Ahora</Button>
 					<ButtonCallUs />
 				</div>
 			</div>
@@ -48,7 +47,7 @@ import Mussels from "~/assets/images/mussels2.png";
 					src={PizzaHero}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt="Yo asesor"
 					loading={"eager"}
 					fetchpriority={"high"}
 				/>
@@ -60,9 +59,9 @@ import Mussels from "~/assets/images/mussels2.png";
 
 	<Section class:list={"bg-white"}>
 		<Heading>
-			<h2 slot="heading-title" class="font-black text-brand-green h2">Our dishes</h2>
+			<h2 slot="heading-title" class="font-black text-brand-green h2">Entrenamientos por niveles</h2>
 			<p slot="heading-content">
-				Explore our selection of authentic Italian dishes, from classic pizzas to homemade pastas.
+				Explora los entrenamientos que te recomendamos dependiendo de tu nivel
 			</p>
 		</Heading>
 
@@ -75,11 +74,35 @@ import Mussels from "~/assets/images/mussels2.png";
 						formats={["avif", "webp"]}
 						alt="A description of my image."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">INICIACIÓN</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						 "Cada experto fue un principiante alguna vez. Hoy es tu día para empezar."
+						
 					</p>
+					<p>
+						
+						¿Quieres ponerte en forma, pero no sabes por dónde empezar? ¡Este es tu momento! Nuestro programa de iniciación 
+						está diseñado para ayudarte a ganar fuerza, mejorar tu movilidad y sentirte con más energía, sin importar tu condición física actual.
+					</p>
+					<p>
+						✅ Rutinas sencillas y efectivas
+						
+					</p>
+					<p>
+						✅ Técnicas básicas explicadas paso a paso
+						
+					</p>
+					<p>
+						✅ Acompañamiento personalizado para que entrenes con seguridad
+						
+						
+					</p>
+					<p>
+						
+						 Empieza hoy y descubre de lo que eres capaz. Tu mejor versión te está esperando.
+						
+					</p>
+					
 				</div>
 			</div>
 
@@ -91,10 +114,32 @@ import Mussels from "~/assets/images/mussels2.png";
 						formats={["avif", "webp"]}
 						alt="A description of my image."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">MEDIO</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						"Ya has empezado, ahora es momento de destacar."
+						
+					</p>
+					<p>
+						
+						Si ya tienes experiencia entrenando y buscas desafíos más intensos, este plan es para ti. Te ayudamos a fortalecer tu cuerpo, mejorar tu resistencia y pulir tu técnica.
+					</p>
+					<p>
+						🔥 Programas dinámicos para romper la rutina
+						
+					</p>
+					<p>
+						🔥 Planes progresivos que maximizan tus resultados
+						
+					</p>
+					<p>
+						🔥 Trabajo de fuerza, cardio y flexibilidad en equilibrio
+						
+						
+					</p>
+					<p>
+						
+						Sigue avanzando, cada repetición te acerca a tus objetivos.
+						
 					</p>
 				</div>
 			</div>
@@ -107,11 +152,26 @@ import Mussels from "~/assets/images/mussels2.png";
 						formats={["avif", "webp"]}
 						alt="A description of my image."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">AVANZADO</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
-					</p>
+						"Aquí es donde la disciplina supera al talento."				   
+				   </p>
+				   <p>   
+						Este programa está diseñado para quienes quieren llevar su entrenamiento al siguiente nivel. 
+						Sesiones exigentes, enfoque en rendimiento y estrategias avanzadas para perfeccionar cada movimiento.
+				   </p>
+				   <p>
+						🏆 Entrenamientos de alta intensidad (HIIT, fuerza máxima, explosividad)					   
+				   </p>
+				   <p>					   
+						🏆 Optimización del rendimiento físico y mental
+				   </p>
+				   <p>
+						🏆 Técnicas avanzadas de recuperación y prevención de lesiones					   
+				   </p>
+				   <p>					   
+						Aquí no se trata solo de entrenar. Se trata de dominar. ¿Listo para el reto?					   
+				   </p>
 				</div>
 			</div>
 		</Grid>

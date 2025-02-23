@@ -1,31 +1,27 @@
 export const menuMain = [
+    
     {
-        name: "Home",
-        url: "/",
-        highlighted: false,
-    },
-    {
-        name: "Menu",
+        name: "Entrenamientos",
         url: "/menu",
         highlighted: false,
     },
     {
-        name: "About Us",
+        name: "Sobre Nosotros",
         url: "/about-us",
         highlighted: false,
     },
     {
-        name: "Gallery",
+        name: "Contenido",
         url: "/gallery",
         highlighted: false,
     },
     {
-        name: "Contact",
+        name: "Contacto",
         url: "/contact",
         highlighted: false,
     },
     {
-        name: "Book",
+        name: "Reserva",
         url: "/book",
         highlighted: true,
     },
